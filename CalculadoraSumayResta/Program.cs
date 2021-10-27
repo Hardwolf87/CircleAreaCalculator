@@ -10,8 +10,13 @@ namespace CalculadoraSumayResta
             int primerDato;
             int segundoDato;
 
-            Console.WriteLine("soy la calculadora mulita, solo sumo y resto, que deseas hacer:");
+            Console.WriteLine("soy la calculadora mulita, solo sumo y resto, que deseas ejecutar:");
             Console.WriteLine("1. Suma");
+
+
+
+
+
             Console.WriteLine("2. Resta");
             operacion = ObtenerDatosEnterosDelUsuario("Proporciona la operacion que deseas ejecutar:");
 
